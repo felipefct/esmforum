@@ -1,15 +1,7 @@
-# Planejamento de Pair Programming
+# Estratégia de Programação em Par (Pair Programming)
 
-Para garantir a qualidade do código, aplicaremos a prática de Pair Programming de forma adaptada para o ambiente remoto.
-
-## Ferramentas
-- **VS Code Live Share:** Para edição simultânea e compartilhamento de ambiente.
-- **Discord / Google Meet:** Para comunicação por voz.
-
-## Dinâmica (Driver e Navigator)
-- **Driver:** Aquele que detém o teclado. Seu foco será na escrita do código limpo e sintaxe correta.
-- **Navigator:** Aquele que observa e revisa em tempo real. Seu foco será pensar na arquitetura, antecipar bugs e garantir o Design Simples (YAGNI).
-
-## Rotação
-A troca de papéis ocorrerá a cada 30 minutos (Técnica Pomodoro).
-*(Nota: No desenvolvimento individual, esta estratégia foca em code reviews detalhados antes de cada commit para simular o papel do Navigator).*
+Como estou realizando o projeto individualmente, vou adaptar essa prática.
+Se eu estivesse com um colega, faríamos assim:
+- Usaríamos a extensão "Live Share" do VSCode, onde os dois mexem no mesmo código ao mesmo tempo.
+- Usaríamos o Discord para conversar por voz.
+- Um digita o código (Piloto) e o outro confere a lógica (Navegador), trocando de função a cada 30 minutos.

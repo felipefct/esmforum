@@ -1,21 +1,7 @@
-# Guia de Instalação - ESM Forum
+# Guia de Instalação
 
-Este documento descreve os passos necessários para configurar o ambiente de desenvolvimento local do ESM Forum (Backend e Frontend).
-
-## Pré-requisitos
-- [Node.js](https://nodejs.org/) instalado.
-- Git instalado.
-
-## 1. Configuração do Backend
-1. Clone o repositório: `git clone <URL_DO_SEU_FORK_ESMFORUM>`
-2. Acesse a pasta do projeto: `cd esmforum`
-3. Instale as dependências executando: `npm install`
-4. Inicie o servidor com o comando: `npm start`
-5. O backend estará rodando em `http://localhost:3000` (ou na porta configurada).
-
-## 2. Configuração do Frontend
-1. Clone o repositório: `git clone <URL_DO_SEU_FORK_ESMFORUM_REACT>`
-2. Acesse a pasta do projeto: `cd esmforum-react`
-3. Instale as dependências executando: `npm install`
-4. Inicie a aplicação com o comando: `npm start`
-5. O frontend estará acessível no navegador, geralmente em `http://localhost:3001` ou `3000`.
+1. Pré-requisitos: Ter o Node.js instalado no computador.
+2. Clonei os repositórios backend (`esmforum`) e frontend (`esmforum-react`) usando o terminal do VSCode no Mac.
+3. No backend: rodei o comando `npm install` para baixar as dependências e `npm start` para ligar o servidor.
+4. No frontend: abri um novo terminal, rodei `npm install` e depois `npm start`. O site abriu no navegador na porta 3001.
+5. O banco de dados SQLite já cria o arquivo localmente de forma automática.
